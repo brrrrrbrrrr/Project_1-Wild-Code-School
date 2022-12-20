@@ -6,10 +6,15 @@
     text-decoration: none;
 }
 
-header {
+/*      HEADER       */
+
+        header {
     height: 30vh;
     background: url(images/basscover.jpg) center/cover ;
     text-transform: uppercase;
+    box-shadow: 9px 5px 15px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 9px 5px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 5px 15px 0px rgba(0,0,0,0.75);
 }
 
 .home-header {
@@ -54,5 +59,34 @@ a {
 
 .menu li a:hover {
     color: black;
-    background-color: rgba(255, 255, 255, 0.697);
+    background-color: rgba(201, 201, 201, 0.697);
 }
+
+/*      ARTICLES        */
+
+main {
+    margin: 0 20vw;
+}
+
+.article-container {
+    width: 100µ;
+}
+
+.intro {
+    margin: 100px 0;
+}
+.article-column {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.article-title { 
+    margin: 10px 0;
+}
+
+.article-content {
+    margin-bottom: 40px ;
+}
+
+/*      SAMPLES         */
+    
