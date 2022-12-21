@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 
-/*      HEADER       */
+            /*---------------------- HEADER ----------------------*/
 
         header {
     height: 30vh;
@@ -47,13 +47,12 @@ nav {
     height: 100%;
     justify-content: space-around;
     align-items: flex-end;
-    padding-bottom: 20px;
- 
+    padding-bottom: 30px;
 }
 
 a {   
     color: white;
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px;
 }
 
@@ -62,7 +61,7 @@ a {
     background-color: rgba(201, 201, 201, 0.697);
 }
 
-/*      ARTICLES        */
+            /*---------------------- ARTICLES----------------------*/
 
 main {
     margin: 0 20vw;
@@ -88,5 +87,67 @@ main {
     margin-bottom: 40px ;
 }
 
-/*      SAMPLES         */
+            /* ---------------------- SAMPLE GENEREAL SETTINGS AREA ----------------------*/
+
+.sample { 
+    text-transform: uppercase;
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+    text-align: start;
+    padding: 5px 0px 20px 0px;
+    box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
+}
+
+li.sample {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-sample {
+    padding: 5px;
     
+    
+}
+
+.article-comment {
+    font-style: italic;
+}
+            /* ---------------------- SAMPLES-DUBSTEP ----------------------*/
+    
+.sample-containers-dubstep {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.sample-div1 { grid-area: 1 / 1 / 2 / 2; }
+.sample-div2 { grid-area: 1 / 2 / 2 / 3; }
+.sample-div3 { grid-area: 1 / 3 / 2 / 4; }
+.sample-div4 { grid-area: 2 / 1 / 3 / 2; }
+.sample-div5 { grid-area: 2 / 2 / 3 / 3; }
+.sample-div6 { grid-area: 2 / 3 / 3 / 4; } 
+
+
+
+            /*---------------------- SAMPLE-DNB ----------------------*/
+
+.sample-containers-dnb {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.sample-div7 { grid-area: 1 / 1 / 2 / 2; }
+.sample-div8 { grid-area: 1 / 2 / 2 / 3; }
+.sample-div9 { grid-area: 1 / 3 / 2 / 4; }
+.sample-div10 { grid-area: 2 / 1 / 3 / 2; }
+.sample-div11 { grid-area: 2 / 2 / 3 / 3; }
+.sample-div12 { grid-area: 2 / 3 / 3 / 4; } 
