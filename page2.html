@@ -10,6 +10,17 @@
     <title>Dubstep and DNB | Lyon | Meilleurs soirée Bass Music Lyon</title>
 </head>
 <body>
+    <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            appId            : 'your-app-id',
+            autoLogAppEvents : true,
+            xfbml            : true,
+            version          : 'v15.0'
+          });
+        };
+      </script>
+      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk/debug.js"></script>
     <header>
         <div class="home-header">
         <div class="title">
@@ -18,8 +29,8 @@
         <nav>
             <div class="navlink-container">
                 <ul class="menu">
-                    <li class="list-menu"><a href="">Acceuil</a> </li>
-                    <li class="list-menu"><a href="">A Lyon</a></li>
+                    <li class="list-menu"><a href="index.html">Acceuil</a> </li>
+                    <li class="list-menu"><a href="page2.css">A Lyon</a></li>
                     <li class="list-menu"><a href="">Blog</a></li>
                 </ul>
             </div>
@@ -27,30 +38,42 @@
         </div>
     </header>
     <main>
-        <section>
-            <div>
-                <article>
-                    <h1>Phase</h1>
-                    <img src="images/phase-LOGO.png" alt="" class="logo-conttainer">
-                    <p>Phase est une association de passionnés, en place depuis plusieurs années déjà, leur évènement “OPEN BASS”  à bord de la péniche Loupika tous les mois, est le RDV pour tout amoureux de Bass Music. </p>
-                </article>
-            </div>
-            <div>
-                <article>
-                    <h1>EZ (Totaal rez)</h1>
-                    <img class="logo-container" src="images/EZ-LOGO.png" alt="LOGO EZ">
-                    <p>Une entité dans son domaine, reconnue dans toute la France, les EZ ont lieu tous les trimestres  au Transbordeur Club, avec en tête d’affiche des artistes internationaux.
-                        Elles sont organisées par Totaal Rez, organisateur de concert et soirée, qui ont créé également d’autres marque tel que : Dub écho, encore, High-lo, FCKNYE LYON, le bazar, Danse machine 90’ etc.
-                        </p>
-                </article>
-            </div>
-            <div>
-                <article>
-                    <h1>PhysicalTool</h1>
-                    <img src="images/logofinalrvbNoir-01.png" alt="" class="logo-container">
-                    <p>Physical tool, Association crée par mescud et zuffal, deux artistes drum’n’bass, leur soirée se passe souvent au Loupika.
+        <section class="articleP2-container">
+            <div class="div-articlesP2-content">
+                <article class="articleP2-content">
+                    <div class="logo-and-title">
+                    <title></title>
+                    <img class="logo-container" src="images/ezLOGO.png" alt="LOGO EZ">
+                    <h1 class="articleP2-title">EZ</h1>
+                    </div>
+                    <p class="articleP2-p">Les soirées EZ sont devenue une entité à Lyon, reconnue dans toute la France, elles ont lieu tous les trimestres  au Transbordeur Club, avec en tête d’affiche des artistes internationaux.
+                        Organisées par Totaal Rez, organisateur de concert et soirée, qui ont créé également de nombreuses marques telles que  Dub écho, encore, High-lo, FCKNYE LYON, le bazar et Danse machine 90 ' ! 
                     </p>
+                    <div class="fb-like" data-href="https://www.facebook.com/ez.dubstep.night" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="false"></div>
+                    
                 </article>
+               
+            </div>
+            <div class="div-articlesP2-content">
+                <article class="articleP2-content">
+                    <div class="logo-and-title">
+                    <img src="images/phaseLOGO.png" alt="" class="logo-container">
+                    <h1 class="articleP2-title">Phase</h1>
+                    </div>
+                    <p>Phase est une association de passionnés en place depuis plusieurs années déjà. Alors que leur “OPEN BASS”  font trembler  la péniche Loupika tous les mois, ils sont toujours à l'affut de nouvelles collabs, afin de nous concocter des soirées mémorables ! </p>
+                    <div class="fb-like" data-href="https://www.facebook.com/phaselectro" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="false"></div>    
+                </article>
+            </div>
+            <div class="div-articlesP2-content">
+                <article class="articleP2-content">
+                    <div class="logo-and-title">
+                    <img src="images/physicalLOGO.png" alt="" class="logo-container">
+                    <h1 class="articleP2-title">PhysicalTool</h1>
+                    </div>
+                    <p>Association créée par Mescud et Zuffal, deux artistes Drum & Bass Lyonnais. Après les EZ et les OPEN BASS, les PHYSICS répondent toujours présent pour nous en mettre pleins les tympans, avec de très bonnes surprises ! Et une bonne dose d'humour !
+                    </p>
+                    <div class="fb-like" data-href="https://www.facebook.com/physicaltoolcrew" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="false"></div>
+                    </article>
             </div>
         </section>
     </main>
