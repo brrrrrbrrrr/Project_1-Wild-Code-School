@@ -1,0 +1,66 @@
+.p3-title {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.mainp3-container {
+    display: flex;
+    width: 100vw;
+}
+
+.articlep3-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+.articlep3-bloc {
+    width: 30vw;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    
+}
+
+.img-infekt {
+    width: 100%;
+}
+
+/* ------------------------------ RESPONSIVE------------------------- */
+
+@media screen and (max-width:1200px) {
+    .p3-title {
+        display: flex;
+        width: 100%;
+        margin-bottom: 20px;
+}
+
+.mainp3-container {
+    width: initial;
+    height: initial;
+    
+}
+
+.articlep3-bloc {
+    width: initial;
+    height: initial;
+    align-items: center;
+    margin: 30px 0;
+}
+
+  .articlep3-container {
+    flex-direction: column;
+    
+    
+  }
+
+  .img-infekt {
+    width: 50%;
+    
+  }
+}
