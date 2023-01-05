@@ -15,21 +15,22 @@ body {
     flex-direction: column;
     justify-content:space-between;
     text-align: justify;
-    
-    /* background-color: var(--secondary-color);
-    padding: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform .5s, background-color .5s, box-shadow .5s;
+}
+
+.articleP2-content:hover {
     box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
-    border-radius: 10px;
-    */
-
+    background-color: var(--hover-background--general);
+    
 }
 
 .logo-container {
     width: 50%;
-    margin: 20px;
-    
+    margin: 20px;  
 }
 
 .logo-and-title {
@@ -37,15 +38,20 @@ body {
     flex-direction: column-reverse;
     align-items: center;
     text-transform: uppercase;
+    
 }
 
 .fb-like {
     
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     margin-top: 10px;
+    transition: transform .5s;
 }
 
+.fb-like:hover {
+    transform: scale(1.1);
+}
 
 
 /*----------------------  RESPONSIVE ---------------------- */
