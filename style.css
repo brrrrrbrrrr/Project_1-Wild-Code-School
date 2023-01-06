@@ -347,15 +347,36 @@ iframe {
     }
   }
   
-  /*POPUP */
-  .hide {
-    display: none;
-  }
-      
-  .myDIV:hover + .hide {
-    display: block;
-    color: red;
-  }
+  /* ----------------- DESCRIPTION SUBGENRE ON HOVER--------------------- */
+.dnb-description {
+    background-color: rgb(183, 0, 255);
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    border-radius: 10%;
+    top: 35%;
+    left: -29%;
+    box-shadow: var(--shadow-settings-color-article);
+
+}
+
+.dnb-description > div {
+    width: 300px;
+    background-color:var(--secondary-color);
+    height: 400px;
+    color: #282828;
+    position: absolute;
+    border-radius: 10%;
+}
+
+.jungle {
+    /* background-color: yellow; */
+    z-index: 1000;
+    height: 400px;
+    width: 300px;
+}
+
+
 
             /*----------------------  RESPONSIVE ---------------------- */
 
