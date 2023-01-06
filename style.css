@@ -87,7 +87,7 @@ header {
 }
 
 .title-effect:hover {
-    transform: scale(2);
+    /* transform: scale(2); */
 	animation: pulse 1s infinite;
 }
 
@@ -330,15 +330,15 @@ iframe {
 @keyframes pulse {
     0% {
       transform: scale(.95);
-      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.425);
+      /* box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.425); */
     }
     70% {
       transform: scale(1);
-      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+      /* box-shadow: 0 0 0 10px rgba(255, 255, 255, 0); */
     }
       100% {
       transform: scale(0.95);
-      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+      /* box-shadow: 0 0 0 0 rgba(255, 255, 255, 0); */
     }
   }
   
