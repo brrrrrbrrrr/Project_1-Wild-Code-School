@@ -515,6 +515,9 @@ main {
     display: flex;
     flex-direction: column;
     }
+    .samplee:hover ~ .description, .description2 {
+        display: none;
+    }
 }
 
 
@@ -557,5 +560,8 @@ main {
         .sample-div11 { grid-area: 3 / 1 / 4 / 2; }
         .sample-div12 { grid-area: 3 / 2 / 4 / 3; } 
         
+        .description1, .description2 {
+            left: -37%;
+        }
         
     }
