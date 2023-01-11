@@ -519,6 +519,11 @@ main {
         display: none;
     }
 
+    .iframe-container iframe {
+        width: 100%;
+        height: auto;
+    }
+
     /*----------------------- FOOTER RESPONSIVE------------------------*/
     
     footer {
@@ -554,7 +559,7 @@ main {
     li:hover{
         background-color: initial;
     }
-}
+
 
 /*------------------------ RESPONSIVE ---------------*/
 
@@ -600,5 +605,18 @@ main {
         .description1, .description2 {
             left: -37%;
         }
-       
     }
+     /* -------------------- EMBED VIDEO ----------------------*/
+    
+     @media screen and (max-width:900px) {
+        
+        
+        .iframe-container iframe {
+            width: 100%;
+            height: auto;
+        }
+        .iframe-container .instagram-media {
+            width: 100%;
+            height: auto;
+        }
+     }}
