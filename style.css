@@ -6,19 +6,17 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
- 
-    
-    
-}
-body {
+ }
+
+ body {
     /* background-color: var(--background-color) */
     position: relative;
     font-family: 'Poppins', serif;
     font-weight: 400;
     
-    
 }
-body::after {
+ 
+    body::after {
     content: "";
     background: url(images/djBackGround.jpg)fixed ;
     background-position: center;
@@ -31,7 +29,7 @@ body::after {
     right: 0;
     position: absolute;
     z-index: -1;   
-  }
+  } 
 
 
 
@@ -333,6 +331,9 @@ iframe {
       /* box-shadow: 0 0 0 0 rgba(255, 255, 255, 0); */
     }
   }
+
+  
+
   /*------------------ DESCRIPTION SUBGENRE ON HOVER DNB ---------------------*/
   .description {
     background-color: var(--hoover-sample);
@@ -460,10 +461,40 @@ iframe {
 }
     
 /* .dnb-position > h4, .dnb-position > p  */
+/*-------------------------FOOTER-----------------------------------*/
+footer {
+    height: 3vh;
+    text-transform: uppercase;
+    box-shadow: 9px 5px 15px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow:var(--shadow-settings-color-1) ;
+    -moz-box-shadow:var(--shadow-settings-color-1);
+    background-color:var(--hoover-sample);
+    opacity: 0.7;
+    
+    
+    display: block;
+}
 
 
+.navlink-container-footer {
+    width: 100%;
+    height: 100%;
+    
+}
 
-            /*----------------------  RESPONSIVE ---------------------- */
+.menu-footer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items:flex-start ;
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+      /*----------------------  RESPONSIVE ---------------------- */
 
 @media screen and (max-width:768px) {
 

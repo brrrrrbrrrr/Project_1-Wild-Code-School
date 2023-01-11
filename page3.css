@@ -1,3 +1,8 @@
+
+main {
+    height: 60vh;
+}
+
 .p3-title {
     display: flex;
     width: 50%;
@@ -8,6 +13,7 @@
 .mainp3-container {
     display: flex;
     width: 100vw;
+    
 }
 
 .articlep3-container {
@@ -64,3 +70,4 @@
     
   }
 }
+
