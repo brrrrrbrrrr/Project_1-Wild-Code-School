@@ -1,73 +1,97 @@
-
-main {
-    height: 60vh;
-}
-
 .p3-title {
     display: flex;
-    width: 50%;
+    width: 70%;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-transform: uppercase;
 }
 
 .mainp3-container {
     display: flex;
     width: 100vw;
-    
 }
 
 .articlep3-container {
     width: 100%;
     display: flex;
     justify-content: space-around;
-  
 }
 
 .articlep3-bloc {
     width: 30vw;
-    height: 400px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: justify;
+    padding: 30px;
+    border-radius: 10px;
+    transition: transform .5s, background-color .5s, box-shadow .5s;
+}
     
+.title-bloc {
+    margin-bottom: 40px;
+    width: 100%;
+    text-align:center;
+    text-transform: uppercase;
 }
 
 .img-infekt {
     width: 100%;
 }
 
+.title-infekt {
+    margin-top: 20px;
+}
+
+.p3-article-p:hover {
+    box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
+    background-color: var(--hover-background--general);
+}
+
+.source{
+    text-align: center;
+}
+
+.source-link {
+    color:var(--police-color);
+}
+
 /* ------------------------------ RESPONSIVE------------------------- */
 
 @media screen and (max-width:1200px) {
-    .p3-title {
-        display: flex;
-        width: 100%;
-        margin-bottom: 20px;
+
+main {
+    margin:0 10vw ;
+}
+    
+.p3-title {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 .mainp3-container {
     width: initial;
     height: initial;
-    
 }
 
 .articlep3-bloc {
     width: initial;
     height: initial;
     align-items: center;
-    margin: 30px 0;
+    margin: 30px ;
 }
 
-  .articlep3-container {
+.articlep3-container {
     flex-direction: column;
-    
-    
-  }
+}
 
-  .img-infekt {
+.img-infekt {
     width: 50%;
-    
-  }
+    }
 }
 
