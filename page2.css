@@ -88,7 +88,7 @@
 }
 
 .modal-content {
-    background:var(--hover-background--general);
+    /* background:var(--hover-background--general); */
     padding: 1.5em 2em;
     width: auto;
     max-width: 70%;
@@ -99,9 +99,12 @@
 
 .modal-close {
     position: absolute;
-    right: 15px;
-    top: 15px;
+    padding: 5px 10px;
+    right: -10px;
+    top: -10px;
     color: var(--police-color);
+    background-color: rgba(255, 255, 255, 0.514);
+    border-radius: 5px;
         
 }
 
@@ -110,6 +113,41 @@
     justify-content: center;
 }
 
+.iframe-container {
+   
+   
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+iframe {
+    border: 1px white solid;
+    box-shadow: var(--shadow-settings-color-article);
+}
+
+.more-infos {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 15px;
+    background-color: #1877F2;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: var(--shadow-settings-color-article);
+    
+}
+ .more-infos a{
+    transition: .5s;
+}
+.more-infos .facebook:hover {
+    font-size: 15px;
+}
+
+.p-facebook {
+    visibility: visible;
+    margin-right: 5px;
+}
 /*----------------------  RESPONSIVE ---------------------- */
 
 @media screen and (max-width:1200px) {
@@ -127,8 +165,34 @@
     .logo-and-title {
         margin: 30px 0;
     }
-    .fb-like {
-        justify-content: center;
+   
+    .modal {
+       
+       position: fixed;
+     }
+     .p-facebook {
+        display:none;
     }
-}
+    .more-infos {
+        width: auto;
+    }
+    }
+
+
+  
+     /* -------------------- EMBED VIDEO ----------------------*/
+    
+     @media screen and (max-width:900px) {
+        
+        
+        .iframe-container iframe {
+            width: 100%;
+            height: auto;
+        }
+        .iframe-container .instagram-media {
+            width: 100%;
+            height: auto;
+        }
+     }
+
 

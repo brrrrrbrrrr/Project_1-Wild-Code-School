@@ -606,17 +606,4 @@ main {
             left: -37%;
         }
     }
-     /* -------------------- EMBED VIDEO ----------------------*/
-    
-     @media screen and (max-width:900px) {
-        
-        
-        .iframe-container iframe {
-            width: 100%;
-            height: auto;
-        }
-        .iframe-container .instagram-media {
-            width: 100%;
-            height: auto;
-        }
-     }}
+}
